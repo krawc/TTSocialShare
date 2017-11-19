@@ -1,0 +1,38 @@
+# TopTal Social Share
+
+This plugin displays share buttons of selected social media accounts. Available to posts, pages and other custom post types. User can change size, color, order, location and placement of buttons on the page. Buttons can show on any pages, posts, or custom post types. Comes with a shortcode [ttsocialshare] displaying the buttons on any post or text widget on the page.
+
+### Prerequisites
+
+Wordpress requirements: 
+Requires at least: 3.0.1
+Stable tag: 4.3
+
+### Installing
+
+1. Upload `tt-social-share.php` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+
+## Built With
+
+* [WordPress Plugin Boilerplate](https://wppb.me/) - The plugin boilerplate used
+* [IonIcons](http://ionicons.com/) - web font icons used
+
+## Versioning
+
+We use [gitlab](http://gitlab.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Konrad Krawczyk** 
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* etc

@@ -1,0 +1,138 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.tt-buttons h5{
+   font-family: inherit;
+   color: #333;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+ .tt-buttons h5:after{
+   position: absolute;
+   width: 25px;
+   margin: 8px 1px 0px;
+   height: 3px;
+   border-top: 3px solid #333;
+   display: block;
+   content: "";
+ }
+
+ .tt-btn{
+   display: inline-flex;
+   background: #000;
+   text-align: center;
+   margin: 0px 1.5px;
+ }
+
+.tt-btn a{
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 0px!important;
+}
+
+
+/*small buttons*/
+
+.btnSm .ttBtn,
+.btnSm .tt-btn a{
+  width: 25px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.btnMd .ttBtn,
+.btnMd .tt-btn a{
+  width: 35px;
+  line-height: 35px;
+  font-size: 21px;
+}
+
+.btnLg .ttBtn,
+.btnLg .tt-btn a{
+  width: 50px;
+  line-height: 50px;
+  font-size: 35px;
+}
+
+.tt-btn a:hover{
+  color: #f5f5f5;
+}
+
+.tt-btn.btnFb{
+  background: #3b5998;
+}
+
+.tt-btn.btnTw{
+  background: #1DA1F2;
+}
+
+.tt-btn.btnGp{
+  background: #DB4437;
+}
+
+.tt-btn.btnPi{
+  background: #BD081C;
+}
+
+.tt-btn.btnLi{
+  background: #0077B5;
+}
+
+.tt-btn.btnWa{
+  background: #25D366;
+}
+
+/* WIDGET LOCATION - SPECIFIC SETTINGS*/
+
+/* on THUMBNAIL */
+
+.tt-thumb-container{
+  transform: translateY(-100%);
+  background: rgba(0,0,0,0.3);
+  padding: 10px;
+}
+
+.tt-thumb-container .tt-buttons h5,
+.tt-thumb-container .tt-buttons h5:after{
+  display: none;
+}
+
+.tt-thumb-container a.post-thumbnail{
+  display: none;
+}
+
+/*on FLOATING*/
+.tt-floating-container{
+  position: fixed;
+  top: calc(50% - 100px);
+  left: 0px;
+}
+
+
+
+.tt-floating-container h5{
+  display: none;
+}
+
+.tt-floating-container .tt-btn{
+  margin: 0;
+}
+
+.tt-floating-container .tt-buttons.btnSm{
+  width: 35px;
+  line-height: 0px;
+}
+
+.tt-floating-container .tt-buttons.btnMd,
+.tt-floating-container .tt-buttons.btnLg{
+  width: 50px;
+}
+
+
+@media screen and (min-width: 768px){
+  .tt-btn.btnWa{
+    display: none;
+  }
+}
